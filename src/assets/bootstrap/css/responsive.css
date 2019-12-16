@@ -1,0 +1,81 @@
+/* Small devices (landscape phones, 320px and up) */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) { 
+    .top-header {
+        padding-top: 0;
+        display: inline-table;
+    }
+    .logo{
+       text-align: center;
+    }
+    .search{
+        width: 70%;
+        padding-right: 0;
+    }
+    .search input{
+        height: 40px;
+    }
+    .btn-upload{
+        width: 26%;
+    }
+    .btn-upload span{
+        display: none;
+    }
+    .btn-upload i{
+        margin: 0;
+    }
+    .navbar-toggler{
+        width: 100%;
+    }
+    .navbar-custom a::after{
+        display: none;
+    }
+    .inner-top {
+        padding: .5rem 0 0 0 !important;
+    }
+    #mainNav {
+        padding: 0;
+        margin: 1rem 0 1rem 0 !important;
+    }
+    .document {
+        margin-top: 1rem;
+    }
+    .footer {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 0;
+    }   
+}
+
+/* Small devices (landscape phones, 768px and up) */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {  
+    .network {
+        font-size: 1.5rem;
+    }
+    .fullname{
+        margin-top:-3px;
+        padding-left: 5px;
+    }
+    .btn-upload {
+        padding: 0;
+        text-align: left;
+    }
+    .btn-upload a {
+        width: 85%;
+    }
+    .btn-account{
+        margin-left: -20px;
+    }
+    .notifications{
+        position: absolute;
+        right: -50px;
+    }
+    #mainNav{
+        margin: 0;
+    }
+    .navbar-toggler {
+        width: 100%;
+        margin: 1.5rem 0 0;
+    }
+}
